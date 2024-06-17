@@ -1,0 +1,64 @@
+:root{
+--color1:#FFBDBD;
+--color2:#BE8ABF;
+--color3:#EA9ABB;
+--color4:#FEA5AD;
+--color5:#F8C3AF;
+--black:#150b14;
+--white:#faf6fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+background-color: var(--color2);
+position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.imagen_osito{
+aspect-ratio: 1/1;
+width: 6rem;
+}
+
+.miseria{
+background-color: var(--black);
+display: flex;
+justify-content: center;
+}
+
+.cuerpo{
+background-color: var(--color4);
+width: 80vw;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 5rem;
+}
+
+.texto_titulo{
+font-size: 6rem;
+color: var(--black);
+}
+
+.top_container{
+display: flex;
+justify-content: space-around;
+width: 50vw;
+}
+
+.bottom_container{
+display: flex;
+justify-content: center;
+gap: 10vw;
+width: 50vw;
+margin-top: 2rem;
+}
