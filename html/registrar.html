@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="/estilos/registro.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+</head>
+  <header>
+    <img src="/cositos/osito.png" alt="osito" class="imagen_osito" />
+    <span class="texto_usuario">Bienvenido Empleado</span>
+  </header>
+<body>
+  <div class="container_general">
+    <div class="galletero"><img src="/cositos/Elgalletero.png" alt="un oso :3"></div>
+    <form action="" method="post" >
+    <label>Nombre<input type="text" placeholder="Nombre del que retira" id="Nombre_cliente" name="cnombre" required></label>
+    <label>Cantidad de Galletitas<select name="cantidad" id="cantidad" required>
+        <option value="" selected hidden disabled>Elija una cantidad</option>
+        <option value="12">12</option>
+        <option value="24">24</option>
+        <option value="36">36</option>
+        <option value="48">48</option>
+        <option value="00">A decidir</option>
+    </select></label>
+
+    <label>Sabores<select name="sabores" id="sabores" required>
+        <option value="" selected hidden disabled>Elija un sabor</option>
+        <option value="arandano">Arandano</option>
+        <option value="banana">Banana</option>
+        <option value="frutilla">Frutilla</option>
+        <option value="leche">Leche</option>
+        <option value="chocolate">Chocolate</option>
+    </select></label>
+<div class="ocasion">
+    <label>Casual <input type="radio" name="ocasion" value="casual"></label>
+    <label>Evento <input type="radio" name="ocasion" value="evento"></label>
+</div>
+<div class="botones_registro">
+    <a href="/Index.html" class="volver">Volver</a>
+    <button type="submit" class="boton">Registrar</button>
+</div>
+</form>
+  </div>  
+</body>
+</html>

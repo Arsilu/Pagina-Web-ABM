@@ -1,0 +1,81 @@
+:root{
+--color1:#FFBDBD;
+--color2:#BE8ABF;
+--color3:#EA9ABB;
+--color4:#FEA5AD;
+--color5:#F8C3AF;
+--black:#150b14;
+--white:#faf6fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+background-color: var(--color2);
+position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.imagen_osito{
+aspect-ratio: 1/1;
+width: 6rem;
+}
+
+.texto_usuario {
+margin: 0 1rem 0 0;
+}
+
+.container_general{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 0 0;
+}
+
+.galletero{
+background-color:var(--color3);
+width: 50%;
+height: 50%;
+}
+
+form {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: var(--color5);
+}
+
+.botones_registro{
+    display: flex;
+    justify-content: space-around;
+gap: 3rem;
+}
+
+.volver,.boton{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: var(--color4);
+    border-radius: .250rem;
+    border: none;
+    outline: .200rem solid var(--black);
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
