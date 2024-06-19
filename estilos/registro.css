@@ -20,8 +20,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
+box-shadow: 0 0 .5rem 0 var(--black);
 }
-
+body{
+    background-color: var(--black);
+}
 .imagen_osito{
 aspect-ratio: 1/1;
 width: 6rem;
@@ -29,35 +32,55 @@ width: 6rem;
 
 .texto_usuario {
 margin: 0 1rem 0 0;
+font-size: 1.5rem;
 }
-
+.giga-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container_general{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10vh 0 0 0;
 }
-
 .galletero{
-background-color:var(--color3);
-width: 50%;
-height: 50%;
+    width: 40vw;
+    height: 80vh;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: center;
 }
-
+.el-galletero{
+    width: 20rem;
+   object-fit: contain;
+    
+}
 form {
-    height: 100%;
-    width: 50%;
+    width: 40vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 3rem;
+    justify-content: space-around;
+    gap: 2rem;
     align-items: center;
     font-size: 1.5rem;
     background-color: var(--color5);
 }
-
+label{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#Nombre_cliente, select{
+padding: .5rem 1rem;
+border: none;
+border-radius: .5rem;
+}
 .botones_registro{
     display: flex;
     justify-content: space-around;
@@ -78,4 +101,8 @@ gap: 3rem;
 a{
     text-decoration: none;
     color: var(--black);
+}
+.ocasion{
+    display: flex;
+    gap: 3rem;
 }
