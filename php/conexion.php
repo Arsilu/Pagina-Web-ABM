@@ -2,7 +2,7 @@
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 
 
-$c_database = "osito-galletitas";
+$c_database = "osito";
 $c_conexion = "localhost";
 $c_usuario = "root";
 $c_password = "";

@@ -13,26 +13,8 @@
     padding: 0;    
 }
 
-header{
-background-color: var(--color2);
-position: absolute;
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-box-shadow: 0 0 .5rem 0 var(--black);
-}
 body{
     background-color: var(--black);
-}
-.imagen_osito{
-aspect-ratio: 1/1;
-width: 6rem;
-}
-
-.texto_usuario {
-margin: 0 1rem 0 0;
-font-size: 1.5rem;
 }
 .giga-container{
     width: 100vw;
@@ -89,13 +71,12 @@ gap: 3rem;
 
 .volver,.boton{
     padding: 0.5rem 1rem 0.5rem 1rem;
-    background-color: var(--color4);
+    background-color: var(--color2);
     border-radius: .250rem;
     border: none;
-    outline: .200rem solid var(--black);
     cursor: pointer;
     font-size: 1.5rem;
-    color: var(--white);
+    color: var(--black);
 }
 
 a{

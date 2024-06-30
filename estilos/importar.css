@@ -1,0 +1,79 @@
+:root{
+--color1:#FFBDBD;
+--color2:#BE8ABF;
+--color3:#EA9ABB;
+--color4:#FEA5AD;
+--color5:#F8C3AF;
+--black:#150b14;
+--white:#faf6fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--black) ;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color4);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    gap: 10vh;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 80%;
+}
+
+a,button{
+    text-decoration: none;
+    color: var(--black);
+    padding: .5rem 1rem;
+    background-color: var(--color2);
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input{
+    padding: .5rem 1rem;
+    background-color: var(--color2);
+    border-radius: .5rem;
+}
+
+input::file-selector-button{
+    background-color: var(--color4);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    border: .100rem solid var(--white);
+    cursor: pointer;
+}
+
+span{
+    font-size: 3.5rem;
+}

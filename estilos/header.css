@@ -1,0 +1,34 @@
+:root{
+--color1:#FFBDBD;
+--color2:#BE8ABF;
+--color3:#EA9ABB;
+--color4:#FEA5AD;
+--color5:#F8C3AF;
+--black:#150b14;
+--white:#faf6fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+    background-color: var(--color2);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 0 .5rem 0 var(--black);
+}
+    
+.imagen_osito{
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+.texto_usuario {
+    margin: 0 1rem 0 0;
+    font-size: 1.5rem;
+}

@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="/estilos/lista.css" />
+  <link rel="stylesheet" href="/estilos/header.css">
 
 <head>
     <meta charset="UTF-8" />
